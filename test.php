@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <html>
-<head>
-</head>
 <body>
 <?php
-$x = 5985;
+$x=10.365;
 var_dump($x);
 ?>
 </body>
