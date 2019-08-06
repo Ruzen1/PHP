@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html>
-<head>
-</head>
 <body>
 <?php
-$x = 5985;
-var_dump($x);
+$startdate=strtotime("Saturday");
+$enddate=strtotime("+6 weeks",$startdate);
+
+while ($startdate < $enddate){
+    echo date("M d", $startdate) . "<br>";
+    $startdate = strtotime("+1 week",$startdate);
+}
 ?>
 </body>
 </html>
