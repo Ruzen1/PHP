@@ -2,10 +2,8 @@
 <html>
 <body>
 <?php
-echo "Today is " . date("Y/m/d") . "<br>";
-echo "Today is " . date("Y.m.d") . "<br>";
-echo "Today is " . date("y-M-D-L") . "<br>";
-echo "Today is " . date("1");
+date_default_timezone_set("Asia/Tokyo");
+echo "The time is ".date("H:i:sA");
 ?>
 </body>
 </html>
